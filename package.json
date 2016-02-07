@@ -1,0 +1,14 @@
+{
+  "name": "DCSILWifi",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "morgan": "^1.6.1",
+    "multer": "^1.1.0",
+    "nib": "*",
+    "rwlock": "^5.0.0",
+    "stylus": "*"
+  }
+}

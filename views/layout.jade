@@ -1,0 +1,18 @@
+doctype
+html
+  head
+    title #{title} - Line Reader
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1 
+        a(href='/') My Site
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p 
+        a(href='/upload') Add File
+      p A simple site for reading a file line by line by Adam Gordon 

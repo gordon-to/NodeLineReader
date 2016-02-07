@@ -1,0 +1,9 @@
+$(function(){
+  $('#getkey').click(function(){
+    $.get(
+      "/key",
+      function(data){
+        $('#showkey').text(data)
+      })
+  })
+})

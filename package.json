@@ -1,7 +1,11 @@
 {
   "name": "DCSILWifi",
   "version": "0.0.1",
-  "private": "true",
+  "author": "Adam Gordon <ag@adamgondon.ca> (adamgordon.ca)",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/xMrWhite/NodeLineReader"
+    },
   "dependencies": {
     "express": "*",
     "jade": "*",
